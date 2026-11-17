@@ -1,0 +1,30 @@
+INTERVISTE ALLACCIAMENTO - versione web (v1.0)
+=================================================
+
+Contenuto della cartella
+  index.html             l'app completa (funziona anche senza rete una volta aperta)
+  manifest.webmanifest   permette di aggiungerla alla schermata Home del telefono
+  sw.js                  conserva l'app sul dispositivo per l'uso offline
+  icona-192.png / icona-512.png   icona dell'app
+
+Come pubblicarla
+  Caricare TUTTI i file di questa cartella, cosi' come sono, in una cartella di un
+  sito raggiungibile in https (sito o intranet aziendale, Netlify, GitHub Pages...).
+  L'indirizzo dell'app sara' quello della cartella, es. https://sito.it/interviste/
+  Serve https: senza, fotocamera, GPS e uso offline non funzionano.
+
+Primo utilizzo sul telefono o tablet
+  1. Aprire l'indirizzo con Chrome (Android) o Safari (iPhone/iPad).
+  2. Aggiungerla alla Home:
+       Android: menu (tre puntini) > "Aggiungi a schermata Home" / "Installa app"
+       iPhone/iPad: pulsante Condividi > "Aggiungi alla schermata Home"
+  3. Da quel momento si apre dall'icona, anche senza rete.
+
+Dati
+  Le interviste restano salvate sul dispositivo, nel browser: non vengono inviate
+  a nessun server. Usare "Genera PDF" per inviarle e "Backup" per farne una copia.
+  Disinstallare l'app o cancellare i dati del browser cancella le interviste.
+
+Aggiornare l'app
+  Sostituire i file sul sito con quelli nuovi: i dispositivi prendono la nuova
+  versione alla prima apertura con la rete. Le interviste salvate non si perdono.
