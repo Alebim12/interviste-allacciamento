@@ -1,4 +1,4 @@
-INTERVISTE ALLACCIAMENTO - versione web (v1.1)
+INTERVISTE ALLACCIAMENTO - versione web (v1.2)
 =================================================
 
 Contenuto della cartella

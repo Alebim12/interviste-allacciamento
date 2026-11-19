@@ -1,5 +1,5 @@
 // Cache per l'uso offline. Cambiando VERSION i dispositivi scaricano la nuova versione.
-const VERSION = 'interviste-1.1';
+const VERSION = 'interviste-1.2';
 const FILES = ['./', 'index.html', 'manifest.webmanifest', 'icona-192.png', 'icona-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
